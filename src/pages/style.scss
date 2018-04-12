@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.left__div {
+  background: whitesmoke;
+  height: 100vh;
+  flex: 2;
+}
+
+.right__div {
+  background: black;
+  color: white;
+  height: 100vh;
+  flex: 1;
+}

@@ -3,11 +3,7 @@ import Link from 'gatsby-link'
 
 const Header = () => (
   <div>
-    <div>
-      <h1>
-        <Link to="/">Abel Acosta</Link>
-      </h1>
-    </div>
+    <div />
   </div>
 )
 
