@@ -7,6 +7,7 @@
   background: whitesmoke;
   height: 100vh;
   flex: 2;
+  padding: 2rem 5rem;
 }
 
 .right__div {
@@ -14,4 +15,9 @@
   color: white;
   height: 100vh;
   flex: 1;
+  padding: 2rem 2rem;
+}
+
+.projects__title {
+  padding-top: 2rem;
 }

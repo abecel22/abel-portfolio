@@ -1,0 +1,10 @@
+.projects-row {
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  padding: 2rem 3rem;
+  .projects-row__image {
+    width: 29%;
+    height: auto;
+  }
+}
