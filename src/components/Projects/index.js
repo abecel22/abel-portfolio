@@ -7,10 +7,25 @@ import './style.scss'
 class Projects extends React.Component {
   render() {
     return (
-      <div className="projects-row">
-        <img src={campDash} className="projects-row__image" />
-        <img src={campDash} className="projects-row__image" />
-        <img src={campDash} className="projects-row__image" />
+      <div className="projects-grid">
+        <div>
+          <img src={campDash} className="projects-row__image" />
+        </div>
+        <div>
+          <img src={campDash} className="projects-row__image" />
+        </div>
+        <div>
+          <img src={campDash} className="projects-row__image" />
+        </div>
+        <div>
+          <img src={campDash} className="projects-row__image" />
+        </div>
+        <div>
+          <img src={campDash} className="projects-row__image" />
+        </div>
+        <div>
+          <img src={campDash} className="projects-row__image" />
+        </div>
       </div>
     )
   }

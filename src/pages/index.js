@@ -16,7 +16,6 @@ const IndexPage = () => (
       </h3>
       <h5 className="projects__title">Projects</h5>
       <Projects />
-      <Projects />
     </div>
     <div className="right__div">
       <h5>This is the right side</h5>
