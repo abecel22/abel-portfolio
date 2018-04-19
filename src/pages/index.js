@@ -7,7 +7,7 @@ import './style.scss'
 const IndexPage = () => (
   <div className="container">
     <div className="left__div">
-      <h5>Hi, I'm Abel Acosta</h5>
+      <h2>Hi, I'm Abel Acosta</h2>
       <h3>
         Full stack web developer. I make web apps! Lorem ipsum dolor sit amet
         consectetur adipisicing elit. Iusto dolore accusantium perferendis
