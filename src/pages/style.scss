@@ -8,6 +8,7 @@
   height: 100vh;
   flex: 2;
   padding: 2rem 3rem;
+  overflow: scroll;
   h2 {
     margin: 0.5vw 1vw;
   }
@@ -25,8 +26,25 @@
   height: 100vh;
   flex: 1;
   padding: 2rem 2rem;
+  overflow: hidden;
 }
 
 .projects__title {
   padding-top: 2rem;
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left__div {
+    width: auto;
+    height: auto;
+  }
+
+  .right__div {
+    width: auto;
+    height: 500px;
+  }
 }
