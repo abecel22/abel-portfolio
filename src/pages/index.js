@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Projects from '../components/Projects/index'
+import RightSidebar from '../components/RightSidebar/index'
 
 import './style.scss'
 
@@ -18,7 +19,7 @@ const IndexPage = () => (
       <Projects />
     </div>
     <div className="right__div">
-      <h5>This is the right side</h5>
+      <RightSidebar />
     </div>
   </div>
 )
