@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div className="left__div">
       <h2>Hi, I'm Abel Acosta</h2>
       <h3>
-        Full stack web developer. I make web apps! Lorem ipsum dolor sit amet
+        Front end web developer. I make web apps! Lorem ipsum dolor sit amet
         consectetur adipisicing elit. Iusto dolore accusantium perferendis
         ducimus natus aperiam ab, harum, quas nobis veritatis fugit eius atque
         explicabo, ut quaerat dignissimos similique velit ea provident quo.
