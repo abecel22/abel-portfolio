@@ -15,7 +15,7 @@ const IndexPage = () => (
         ducimus natus aperiam ab, harum, quas nobis veritatis fugit eius atque
         explicabo, ut quaerat dignissimos similique velit ea provident quo.
       </h3>
-      <h5 className="projects__title">Projects</h5>
+      <h2 className="projects__title">Projects</h2>
       <Projects />
     </div>
     <div className="right__div">
