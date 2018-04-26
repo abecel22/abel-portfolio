@@ -13,6 +13,10 @@
     background-image: url(./../../assets/images/Abel.png);
     background-size: cover;
     border-radius: 50%;
+    filter: grayscale(100%);
+  }
+  .profile__image:hover {
+    filter: grayscale(0%);
   }
   .profile__bio {
     padding-top: 25px;
