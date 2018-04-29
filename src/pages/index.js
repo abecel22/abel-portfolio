@@ -15,6 +15,17 @@ const IndexPage = () => (
         aperiam ab, harum, quas nobis veritatis fugit eius atque explicabo, ut
         quaerat dignissimos similique velit ea provident quo.
       </h3>
+      <h2 className="skills">What I Do</h2>
+      <div className="skillsDiv">
+        <div className="fb">
+          <h4>Front End</h4>
+          <p>JavaScript, CSS3, HTML5, React</p>
+        </div>
+        <div className="fb">
+          <h4>Back End</h4>
+          <p>NodeJS, Express, APIs, MongoDB</p>
+        </div>
+      </div>
       <h2 className="projects__title">Projects</h2>
       <Projects />
     </div>
