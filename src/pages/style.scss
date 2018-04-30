@@ -28,8 +28,6 @@
     font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 200;
   }
-  h4 {
-  }
   p {
     font-size: 0.9rem;
   }
@@ -52,15 +50,6 @@
     to {
       border-right-color: transparent;
     }
-  }
-
-  .skills {
-    padding-top: 1.5rem;
-  }
-
-  .skillsDiv {
-    display: flex;
-    justify-content: space-around;
   }
 }
 

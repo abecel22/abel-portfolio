@@ -1,0 +1,40 @@
+.fb {
+  width: 40%;
+}
+
+table,
+td {
+  margin: 2vw 0;
+  background: #343a40;
+  border: 1px solid black;
+  line-height: 3;
+  padding: 3px;
+  border-spacing: 0px;
+}
+table {
+  width: 100%;
+  th {
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+  }
+  td {
+    background: whitesmoke;
+  }
+  td:nth-child(odd) {
+    text-align: center;
+    width: 35%;
+  }
+  td:nth-child(even) {
+    padding-left: 10px;
+  }
+}
+
+.skills {
+  padding-top: 1.5rem;
+}
+
+.skillsDiv {
+  display: flex;
+  justify-content: space-around;
+}
