@@ -1,3 +1,12 @@
+.skills {
+  padding-top: 1.5rem;
+}
+
+.skillsDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
 .fb {
   width: 40%;
 }
@@ -7,7 +16,7 @@ td {
   margin: 2vw 0;
   background: #343a40;
   border: 1px solid black;
-  line-height: 3;
+  line-height: 2.5;
   padding: 3px;
   border-spacing: 0px;
 }
@@ -17,6 +26,7 @@ table {
     color: white;
     text-align: left;
     padding-left: 10px;
+    line-height: 2;
   }
   td {
     background: whitesmoke;
@@ -28,13 +38,14 @@ table {
   td:nth-child(even) {
     padding-left: 10px;
   }
+  .svg-inline--fa {
+    vertical-align: middle;
+  }
 }
 
-.skills {
-  padding-top: 1.5rem;
-}
-
-.skillsDiv {
-  display: flex;
-  justify-content: space-around;
+@media screen and (max-width: 650px) {
+  .skillsDiv {
+    display: flex;
+    flex-direction: column;
+  }
 }

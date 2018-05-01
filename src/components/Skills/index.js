@@ -47,7 +47,7 @@ class Skills extends React.Component {
             <table>
               <tr>
                 <th />
-                <th colspan="2">Back End</th>
+                <th>Back End</th>
               </tr>
               <tr>
                 <td>
