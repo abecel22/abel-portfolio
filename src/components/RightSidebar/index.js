@@ -1,4 +1,7 @@
 import React from 'react'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
+import solid from '@fortawesome/fontawesome-free-solid/'
 
 import './style.scss'
 
@@ -18,7 +21,21 @@ class RightSidebar extends React.Component {
           </p>
         </div>
         <div className="bottom__links">
-          <p>Links go here</p>
+          <div className="icons">
+            <FontAwesomeIcon
+              className="fa-2x"
+              icon={['fab', 'github-square']}
+            />
+            <FontAwesomeIcon className="fa-2x" icon={['fab', 'linkedin']} />
+            <FontAwesomeIcon
+              className="fa-2x"
+              icon={['fab', 'twitter-square']}
+            />
+            <FontAwesomeIcon
+              className="fa-2x"
+              icon={['fas', 'envelope-square']}
+            />
+          </div>
         </div>
       </div>
     )

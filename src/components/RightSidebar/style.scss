@@ -2,11 +2,13 @@
   padding: 0px 50px 50px 50px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .profile__container {
   padding-top: 25px;
   padding-bottom: 50px;
+  flex-grow: 1;
   .profile__image {
     width: 180px;
     height: 180px;
@@ -27,5 +29,9 @@
 
 .bottom__links {
   border-top: 1px solid grey;
-  margin-top: 50px;
+  .icons {
+    margin: 2vw 0 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
 }
