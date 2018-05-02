@@ -12,6 +12,10 @@ class RightSidebar extends React.Component {
             This is my bio. It will sound amazing when I am done. Many people
             will be amazed.
           </p>
+          <p className="profile__bio">
+            This is my bio. It will sound amazing when I am done. Many people
+            will be amazed.
+          </p>
         </div>
         <div className="bottom__links">
           <p>Links go here</p>
