@@ -28,8 +28,12 @@
     font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 200;
   }
+  h4 {
+    padding-left: 0.5rem;
+  }
   p {
     font-size: 0.9rem;
+    padding-left: 0.5rem;
   }
   .typewriter {
     animation: typewriter 3.5s steps(44) 1s 1 normal both,
