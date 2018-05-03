@@ -31,6 +31,17 @@
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .projects-grid {
+    div {
+      flex: auto;
+      width: 250px;
+      margin: 0.5vw 1vw;
+      padding-bottom: 1vw;
+    }
+  }
+}
+
 @media screen and (max-width: 400px) {
   .projects-grid {
     padding: 0;

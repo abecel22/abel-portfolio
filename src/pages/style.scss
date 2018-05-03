@@ -66,6 +66,12 @@
   padding: 1rem 0;
 }
 
+@media screen and (min-width: 1500px) {
+  .left__div {
+    padding: 2rem 5rem;
+  }
+}
+
 @media screen and (max-width: 970px) {
   .container {
     flex-direction: column;
