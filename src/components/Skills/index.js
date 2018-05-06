@@ -22,14 +22,14 @@ class Skills extends React.Component {
               <tbody>
                 <tr>
                   <td>
-                    <FontAwesomeIcon className="fa-2x" icon={['fab', 'js']} />
+                    <FontAwesomeIcon className="fa-lg" icon={['fab', 'js']} />
                   </td>
                   <td>JavaScript</td>
                 </tr>
                 <tr>
                   <td>
                     <FontAwesomeIcon
-                      className="fa-2x"
+                      className="fa-lg"
                       icon={['fab', 'react']}
                     />
                   </td>
@@ -37,14 +37,14 @@ class Skills extends React.Component {
                 </tr>
                 <tr>
                   <td>
-                    <FontAwesomeIcon className="fa-2x" icon={['fab', 'css3']} />
+                    <FontAwesomeIcon className="fa-lg" icon={['fab', 'css3']} />
                   </td>
                   <td>CSS3</td>
                 </tr>
                 <tr>
                   <td>
                     <FontAwesomeIcon
-                      className="fa-2x"
+                      className="fa-lg"
                       icon={['fab', 'html5']}
                     />
                   </td>
@@ -64,14 +64,14 @@ class Skills extends React.Component {
               <tbody>
                 <tr>
                   <td>
-                    <FontAwesomeIcon className="fa-2x" icon={['fab', 'node']} />
+                    <FontAwesomeIcon className="fa-lg" icon={['fab', 'node']} />
                   </td>
                   <td>NodeJS</td>
                 </tr>
                 <tr>
                   <td>
                     <FontAwesomeIcon
-                      className="fa-2x"
+                      className="fa-lg"
                       icon={['fab', 'node-js']}
                     />
                   </td>
@@ -79,14 +79,14 @@ class Skills extends React.Component {
                 </tr>
                 <tr>
                   <td>
-                    <FontAwesomeIcon className="fa-2x" icon={['fas', 'code']} />
+                    <FontAwesomeIcon className="fa-lg" icon={['fas', 'code']} />
                   </td>
                   <td>APIs</td>
                 </tr>
                 <tr>
                   <td>
                     <FontAwesomeIcon
-                      className="fa-2x"
+                      className="fa-lg"
                       icon={['fas', 'database']}
                     />
                   </td>

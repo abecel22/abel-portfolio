@@ -9,10 +9,11 @@ import './style.scss'
 const IndexPage = () => (
   <div className="container">
     <div className="left__div">
-      <p className="typewriter title">Hi, I'm Abel Acosta. I make web apps!</p>
+      <p className="typewriter title">Hello, my name is Abel Acosta!</p>
       <h3>
-        Front end web developer. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Iusto dolore accusantium perferendis ducimus natus.
+        I'm a front end developer. My skills are broad: from design, front end,
+        and back end development. I enjoy every aspect of it, and I love
+        building responsive websites from start to finish.
       </h3>
       <Skills />
       <h2 className="projects__title">Projects</h2>
