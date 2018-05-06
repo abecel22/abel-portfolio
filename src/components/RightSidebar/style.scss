@@ -6,8 +6,7 @@
 }
 
 .profile__container {
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding-top: 18px;
   flex-grow: 1;
   .profile__image {
     width: 180px;
@@ -22,15 +21,16 @@
     filter: grayscale(0%);
   }
   .profile__bio {
-    padding-top: 25px;
-    font-size: 1.2rem;
+    padding-top: 5px;
+    font-size: 0.85rem;
+    line-height: 2;
   }
 }
 
 .bottom__links {
   border-top: 1px solid grey;
   .icons {
-    margin: 2vw 0 0 0;
+    margin: 2vw 0 1vw 0;
     display: flex;
     justify-content: space-around;
   }

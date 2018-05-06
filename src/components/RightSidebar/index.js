@@ -12,12 +12,17 @@ class RightSidebar extends React.Component {
         <div className="profile__container">
           <div className="profile__image" />
           <p className="profile__bio">
-            This is my bio. It will sound amazing when I am done. Many people
-            will be amazed.
+            I am a technolgy enthusiast. My love for building software started
+            with my Android. My curiosity was sparked as I challenged myself to
+            build an app for my Android. I learned Java and successfully built 3
+            simple apps.
           </p>
           <p className="profile__bio">
-            This is my bio. It will sound amazing when I am done. Many people
-            will be amazed.
+            I then learned about Javascript. After I realized all that
+            Javascript could offer, I was hooked! Currently, I spend my time
+            building new sites, practicing new algorithms on Codewars, and
+            collaborating with a remote team on team dev projects (through
+            Chingu Cohorts).
           </p>
         </div>
         <div className="bottom__links">
