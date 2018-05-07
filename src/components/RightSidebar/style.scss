@@ -35,3 +35,15 @@
     justify-content: space-around;
   }
 }
+
+@media screen and (max-width: 970px) {
+  .sidebar__container {
+    padding: 2vw 10vw 2vw 10vw;
+    .profile__image {
+      margin: 0 auto;
+    }
+    .bottom__links {
+      margin-bottom: 2vw;
+    }
+  }
+}

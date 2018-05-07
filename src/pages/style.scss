@@ -35,7 +35,7 @@
     padding-left: 0.5rem;
   }
   .typewriter {
-    animation: typewriter 3.9s steps(44) 1s 1 normal both,
+    animation: typewriter 3.5s steps(44) 1s 1 normal both,
       blinkTextCursor 600ms steps(44) infinite normal;
   }
   @keyframes typewriter {
@@ -92,7 +92,7 @@
   }
 
   .right__div {
-    width: auto;
-    height: 500px;
+    overflow: visible;
+    height: 100%;
   }
 }
