@@ -12,7 +12,7 @@
   .title {
     margin: 2.5vw 1.5vw 0.5vw 1vw;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
-    font-size: calc(17px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(16px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     white-space: nowrap;
     overflow: hidden;
     width: 19em;
@@ -83,6 +83,7 @@
   .left__div {
     width: auto;
     height: auto;
+
     h4 {
       padding: 0.5rem 0;
     }
