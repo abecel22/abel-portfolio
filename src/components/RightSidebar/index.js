@@ -27,15 +27,21 @@ class RightSidebar extends React.Component {
         </div>
         <div className="bottom__links">
           <div className="icons">
-            <FontAwesomeIcon
-              className="fa-2x"
-              icon={['fab', 'github-square']}
-            />
-            <FontAwesomeIcon className="fa-2x" icon={['fab', 'linkedin']} />
-            <FontAwesomeIcon
-              className="fa-2x"
-              icon={['fas', 'envelope-square']}
-            />
+            <a href="https://github.com/abecel22">
+              <FontAwesomeIcon
+                className="fa-2x"
+                icon={['fab', 'github-square']}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/abelacosta-dev/">
+              <FontAwesomeIcon className="fa-2x" icon={['fab', 'linkedin']} />
+            </a>
+            <a href="mailto:abe2211@gmail.com">
+              <FontAwesomeIcon
+                className="fa-2x"
+                icon={['fas', 'envelope-square']}
+              />
+            </a>
           </div>
         </div>
       </div>

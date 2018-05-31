@@ -32,6 +32,13 @@
 
 .bottom__links {
   border-top: 1.5px solid grey;
+  a {
+    color: inherit;
+    transition: all 1s ease;
+    :hover {
+      transform: translatey(-3px);
+    }
+  }
   .icons {
     margin: 2vw 0 2vw 0;
     display: flex;
