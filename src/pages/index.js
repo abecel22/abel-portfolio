@@ -11,9 +11,9 @@ const IndexPage = () => (
     <div className="left__div">
       <p className="typewriter title">Hello, my name is Abel Acosta!</p>
       <h3>
-        I'm a front end developer. My skills are broad: from design, front end,
-        and back end development. I enjoy every aspect of it, and I love
-        building responsive websites from start to finish.
+        I'm a front end developer with experience using modern JavaScript
+        libraries. I enjoy every aspect of it, and I love building responsive
+        websites from start to finish.
       </h3>
       <Skills />
       <h2 className="projects__title">Projects</h2>

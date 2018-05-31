@@ -10,8 +10,11 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Abel Acosta"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Abel Acosta Porfolio' },
+        {
+          name: 'keywords',
+          content: 'Abel Acosta, Portfolio, Front End Developer',
+        },
       ]}
     />
     <div>{children()}</div>

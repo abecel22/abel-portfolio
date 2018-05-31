@@ -21,8 +21,8 @@ class RightSidebar extends React.Component {
             I then learned about Javascript. After I realized all that
             Javascript could offer, I was hooked! Currently, I spend my time
             building new sites, practicing new algorithms on Codewars, and
-            collaborating with a remote team on team dev projects (through
-            Chingu Cohorts).
+            collaborating with a remote dev teams on a global collaboration
+            platform, <a href="https://chingu.io/">Chingu</a>.
           </p>
         </div>
         <div className="bottom__links">
@@ -32,10 +32,6 @@ class RightSidebar extends React.Component {
               icon={['fab', 'github-square']}
             />
             <FontAwesomeIcon className="fa-2x" icon={['fab', 'linkedin']} />
-            <FontAwesomeIcon
-              className="fa-2x"
-              icon={['fab', 'twitter-square']}
-            />
             <FontAwesomeIcon
               className="fa-2x"
               icon={['fas', 'envelope-square']}
