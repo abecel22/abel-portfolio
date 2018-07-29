@@ -30,6 +30,15 @@ class Skills extends React.Component {
                   <td>
                     <FontAwesomeIcon
                       className="fa-lg"
+                      icon={['fab', 'angular']}
+                    />
+                  </td>
+                  <td>Angular 6</td>
+                </tr>
+                <tr>
+                  <td>
+                    <FontAwesomeIcon
+                      className="fa-lg"
                       icon={['fab', 'react']}
                     />
                   </td>
@@ -91,6 +100,12 @@ class Skills extends React.Component {
                     />
                   </td>
                   <td>MongoDB</td>
+                </tr>
+                <tr>
+                  <td>
+                    <FontAwesomeIcon className="fa-lg" icon={['fas', 'fire']} />
+                  </td>
+                  <td>Firebase</td>
                 </tr>
               </tbody>
             </table>

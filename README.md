@@ -1,3 +1,3 @@
 # Abel Acosta | Portfolio
 
-This site is being built and is in progress.
+Created with React, SCSS, and Gatsby.
