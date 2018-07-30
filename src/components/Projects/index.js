@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 import campDash from './../../assets/images/projects/campDash.png'
 import camp from './../../assets/images/projects/camp.png'
@@ -14,61 +15,63 @@ class Projects extends React.Component {
     return (
       <div className="projects-grid">
         <div>
-          <a href="https://abecel22.github.io/costa-admin/">
+          <Link to="/costa-admin/">
             <img src={dashboard} className="projects-row__image" />
-          </a>
-          <h4>Costa-Admin</h4>
-          <p>
-            A mock employee admin panel. Angular 6, Angular Material, and
-            TypeScript.
-          </p>
+            <h4>Costa-Admin</h4>
+            <p>
+              A mock employee admin panel. Angular 6, Angular Material, and
+              TypeScript.
+            </p>
+          </Link>
         </div>
 
         <div>
-          <a href="http://costa-yelp-camp.herokuapp.com/">
+          <Link to="/yelp-camp/">
             <img src={camp} className="projects-row__image" />
-          </a>
-          <h4>YelpCamp</h4>
-          <p>
-            Learn about, add, and review campgrounds! JS, Express, and MongoDB.
-          </p>
+            <h4>YelpCamp</h4>
+            <p>
+              Learn about, add, and review campgrounds! JS, Express, and
+              MongoDB.
+            </p>
+          </Link>
         </div>
 
         <div>
-          <a href="http://camp-dash.surge.sh/">
+          <Link to="/camp-dash/">
             <img src={campDash} className="projects-row__image" />
-          </a>
-          <h4>CampDash</h4>
-          <p>
-            New tab Chrome Extension clone of Momentum. jQuery, SCSS, and APIs.
-          </p>
+            <h4>CampDash</h4>
+            <p>
+              New tab Chrome Extension clone of Momentum. jQuery, SCSS, and
+              APIs.
+            </p>
+          </Link>
         </div>
 
         <div>
-          <a href="http://costa-wiki.surge.sh/">
+          <Link to="/costa-wiki/">
             <img src={wiki} className="projects-row__image" />
-          </a>
-          <h4>Wikipedia Viewer</h4>
-          <p>
-            Learn about anything through this Wikipedia viewer. React, SCSS, and
-            Gatsby SSG.
-          </p>
+            <h4>Wikipedia Viewer</h4>
+            <p>
+              Learn about anything through this Wikipedia viewer. React, SCSS,
+              and Gatsby SSG.
+            </p>
+          </Link>
         </div>
 
         <div>
-          <a href="https://costa-weather.surge.sh/">
+          <Link to="/costa-weather/">
             <img src={weather} className="projects-row__image" />
-          </a>
-          <h4>Costa Weather</h4>
-          <p>Weather app! Weather Underground API and jQuery.</p>
+            <h4>Costa Weather</h4>
+            <p>Weather app! Weather Underground API and jQuery.</p>
+          </Link>
         </div>
 
         <div>
-          <a href="https://costa-quotes.surge.sh/">
+          <Link to="/costa-quotes/">
             <img src={quote} className="projects-row__image" />
-          </a>
-          <h4>Quote Generator</h4>
-          <p>Generate an uplifting quote on demand! JS, AJAX, and CSS.</p>
+            <h4>Quote Generator</h4>
+            <p>Generate an uplifting quote on demand! JS, AJAX, and CSS.</p>
+          </Link>
         </div>
       </div>
     )
