@@ -12,7 +12,8 @@ export default () => (
       <h2 className="project-details_header">Costa Weather</h2>
       <img src={weather} alt="" className="project-details_image" />
       <p className="project-details_info">
-        Weather app! Weather Underground API and jQuery.
+        Weather app! Features include local current weather and an autocomplete
+        city search. Weather Underground API and jQuery.
       </p>
       <div className="button-container">
         <a href="https://costa-weather.surge.sh/" className="button">

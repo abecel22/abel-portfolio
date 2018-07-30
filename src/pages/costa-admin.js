@@ -12,8 +12,8 @@ export default () => (
       <h2 className="project-details_header">Costa-Admin</h2>
       <img src={dashboard} alt="" className="project-details_image" />
       <p className="project-details_info">
-        A mock employee admin panel. Angular 6, Angular Material, and
-        TypeScript.
+        A mock employee admin panel. Angular 6, Angular Material, Flex-Layout,
+        Chart.js, and TypeScript.
       </p>
       <div className="button-container">
         <a href="https://abecel22.github.io/costa-admin/" className="button">

@@ -12,8 +12,9 @@ export default () => (
       <h2 className="project-details_header">Wikipedia Viewer</h2>
       <img src={wiki} alt="" className="project-details_image" />
       <p className="project-details_info">
-        Learn about anything through this Wikipedia viewer. React, SCSS, and
-        Gatsby SSG.
+        Learn about anything through this Wikipedia viewer. Features includes a
+        keyterm search and a random article generator. React, SCSS, and Gatsby
+        SSG.
       </p>
       <div className="button-container">
         <a href="http://costa-wiki.surge.sh/" className="button">

@@ -12,7 +12,8 @@ export default () => (
       <h2 className="project-details_header">Quote Generator</h2>
       <img src={quote} alt="" className="project-details_image" />
       <p className="project-details_info">
-        Generate an uplifting quote on demand! JS, AJAX, and CSS.
+        Generate an uplifting quote on demand! If you love the quote, tweet it
+        out! JavaScript, AJAX, Twitter API, and CSS.
       </p>
       <div className="button-container">
         <a href="https://costa-quotes.surge.sh/" className="button">

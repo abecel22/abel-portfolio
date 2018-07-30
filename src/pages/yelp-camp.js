@@ -12,7 +12,8 @@ export default () => (
       <h2 className="project-details_header">YelpCamp</h2>
       <img src={camp} alt="" className="project-details_image" />
       <p className="project-details_info">
-        Learn about, add, and review campgrounds! JS, Express, and MongoDB.
+        Learn about, add, and review campgrounds! JavaScript, Express, Google
+        Maps API, Authentication, and MongoDB.
       </p>
       <div className="button-container">
         <a href="http://costa-yelp-camp.herokuapp.com/" className="button">

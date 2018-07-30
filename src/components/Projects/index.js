@@ -13,12 +13,12 @@ import './style.scss'
 class Projects extends React.Component {
   render() {
     return (
-      <div className="projects-grid">
+      <div id="projects" className="projects-grid">
         <div>
           <Link to="/costa-admin/">
             <img src={dashboard} className="projects-row__image" />
             <h4>Costa-Admin</h4>
-            <p>
+            <p className="projects-row_info">
               A mock employee admin panel. Angular 6, Angular Material, and
               TypeScript.
             </p>
@@ -29,7 +29,7 @@ class Projects extends React.Component {
           <Link to="/yelp-camp/">
             <img src={camp} className="projects-row__image" />
             <h4>YelpCamp</h4>
-            <p>
+            <p className="projects-row_info">
               Learn about, add, and review campgrounds! JS, Express, and
               MongoDB.
             </p>
@@ -40,7 +40,7 @@ class Projects extends React.Component {
           <Link to="/camp-dash/">
             <img src={campDash} className="projects-row__image" />
             <h4>CampDash</h4>
-            <p>
+            <p className="projects-row_info">
               New tab Chrome Extension clone of Momentum. jQuery, SCSS, and
               APIs.
             </p>
@@ -51,7 +51,7 @@ class Projects extends React.Component {
           <Link to="/costa-wiki/">
             <img src={wiki} className="projects-row__image" />
             <h4>Wikipedia Viewer</h4>
-            <p>
+            <p className="projects-row_info">
               Learn about anything through this Wikipedia viewer. React, SCSS,
               and Gatsby SSG.
             </p>
@@ -62,7 +62,9 @@ class Projects extends React.Component {
           <Link to="/costa-weather/">
             <img src={weather} className="projects-row__image" />
             <h4>Costa Weather</h4>
-            <p>Weather app! Weather Underground API and jQuery.</p>
+            <p className="projects-row_info">
+              Weather app! Weather Underground API and jQuery.
+            </p>
           </Link>
         </div>
 
@@ -70,7 +72,9 @@ class Projects extends React.Component {
           <Link to="/costa-quotes/">
             <img src={quote} className="projects-row__image" />
             <h4>Quote Generator</h4>
-            <p>Generate an uplifting quote on demand! JS, AJAX, and CSS.</p>
+            <p className="projects-row_info">
+              Generate an uplifting quote on demand! JS, AJAX, and CSS.
+            </p>
           </Link>
         </div>
       </div>

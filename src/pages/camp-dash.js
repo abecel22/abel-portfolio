@@ -12,7 +12,10 @@ export default () => (
       <h2 className="project-details_header">YelpCamp</h2>
       <img src={campDash} alt="" className="project-details_image" />
       <p className="project-details_info">
-        New tab Chrome Extension clone of Momentum. jQuery, SCSS, and APIs.
+        A new tab Chrome extension clone of Momentum. Features include a news
+        feed, current weather, and a todo list. Created on the Electron platform
+        for demonstration purposes. Desktop version only. jQuery, SCSS, and
+        APIs.
       </p>
       <div className="button-container">
         <a href="http://camp-dash.surge.sh/" className="button">
