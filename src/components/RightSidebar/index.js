@@ -12,7 +12,7 @@ class RightSidebar extends React.Component {
         <div className="profile__container">
           <div className="profile__image" />
           <p className="profile__bio">
-            I am a technolgy enthusiast. My love for building software started
+            I am a technology enthusiast. My love for building software started
             with my Android. My curiosity was sparked as I challenged myself to
             build an app for my Android. I learned Java and successfully built 3
             simple apps.
