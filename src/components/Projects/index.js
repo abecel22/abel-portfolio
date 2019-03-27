@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import campDash from './../../assets/images/projects/campDash.png'
-import camp from './../../assets/images/projects/camp.png'
+import campDash from '../../assets/images/projects/CampDash.png'
+import camp from '../../assets/images/projects/Camp.png'
 import dashboard from './../../assets/images/projects/dashboard.png'
 import quote from './../../assets/images/projects/quote.png'
 import weather from './../../assets/images/projects/weather.png'

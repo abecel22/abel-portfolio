@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import RightSidebar from '../components/RightSidebar/index'
-import camp from '../assets/images/projects/camp.png'
+import camp from '../assets/images/projects/Camp.png'
 
 export default () => (
   <div className="container">

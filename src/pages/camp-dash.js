@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import RightSidebar from '../components/RightSidebar/index'
-import campDash from '../assets/images/projects/campDash.png'
+import campDash from '../assets/images/projects/CampDash.png'
 
 export default () => (
   <div className="container">
